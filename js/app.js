@@ -6,6 +6,10 @@
 The function will add the following content inside the paragraph with the id of `nirvana`.
 */
 
+function moreTrees(){
+    nirvana.innerHTML = bliss;
+}
+
 var bliss = "Let's put some happy little bushes on the other side now. Anything you want to do you can do here. Trees cover up a multitude of sins. If you don't like it - change it. It's your world. Maybe there's a happy little waterfall happening over here."
 
 
@@ -14,6 +18,14 @@ var bliss = "Let's put some happy little bushes on the other side now. Anything 
 
 The function will hide the contents in the pargraph with the id of `less`.*/
 
+function lessContent(){
+    var one = document.getElementById('less');
+    if(one.style.display === 'block'){
+        one.style.display === 'none';
+    }else{
+        one.style.display === 'block';
+    }
+}
 
 
 //3. Edward (エドワード)
