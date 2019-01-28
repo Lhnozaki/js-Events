@@ -44,6 +44,16 @@ function bling() {
 
 var missing = "1 Big ol' beet";
 
+var four = document.getElementById('recipe');
+four.addEventListener('click', getRecipe);
+
+function getRecipe() {
+    var beets = document.createElement('li');
+    beets.innerHTML = missing;
+    beets.style.fontStyle = 'italic';
+    beets.style.color = '#864747';
+    ingredient.appendChild(beets);
+}
 
 
 //5. Pug Life
