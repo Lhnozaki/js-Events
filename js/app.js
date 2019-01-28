@@ -19,14 +19,8 @@ var bliss = "Let's put some happy little bushes on the other side now. Anything 
 The function will hide the contents in the pargraph with the id of `less`.*/
 
 function lessContent(){
-    var one = document.getElementById('less');
-    if(one.style.display === 'block'){
-        one.style.display === 'none';
-    }else{
-        one.style.display === 'block';
-    }
+    less.style.display = 'none';
 }
-
 
 //3. Edward (エドワード)
 /*Create a function named `bling` that will change the text in the paragraph of `worm` after hovering over it. Use the style guide below.
