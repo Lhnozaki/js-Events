@@ -134,3 +134,6 @@ function randomFortune(){
 
 secret.addEventListener('keyup', eight);
 
+function eight(){
+    secret.value = secret.value.toUpperCase();
+}
